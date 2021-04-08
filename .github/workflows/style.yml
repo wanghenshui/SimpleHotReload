@@ -3,10 +3,10 @@ name: Style
 on:
   push:
     branches:
-      - master
+      - dev
   pull_request:
     branches:
-      - master
+      - dev
 
 env:
   CPM_SOURCE_CACHE: ${{ github.workspace }}/cpm_modules

@@ -1,5 +1,4 @@
 [![Actions Status](https://github.com/wanghenshui/SimpleJIT/workflows/MacOS/badge.svg)](https://github.com/wanghenshui/SimpleJIT/actions)
-[![Actions Status](https://github.com/wanghenshui/SimpleJIT/workflows/Windows/badge.svg)](https://github.com/wanghenshui/SimpleJIT/actions)
 [![Actions Status](https://github.com/wanghenshui/SimpleJIT/workflows/Ubuntu/badge.svg)](https://github.com/wanghenshui/SimpleJIT/actions)
 [![Actions Status](https://github.com/wanghenshui/SimpleJIT/workflows/Style/badge.svg)](https://github.com/wanghenshui/SimpleJIT/actions)
 [![Actions Status](https://github.com/wanghenshui/SimpleJIT/workflows/Install/badge.svg)](https://github.com/wanghenshui/SimpleJIT/actions)
