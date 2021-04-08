@@ -29,5 +29,4 @@ jobs:
       - name: build
         run: cmake --build build -j4
 
-      - name: run
-        run: ./build/Greeter
+
