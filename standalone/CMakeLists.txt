@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.14 FATAL_ERROR)
 
-project(GreeterStandalone LANGUAGES CXX)
+project(FooModule LANGUAGES CXX)
 
 # --- Import tools ----
 
@@ -10,20 +10,15 @@ include(../cmake/tools.cmake)
 
 include(../cmake/CPM.cmake)
 
-CPMAddPackage(
-  GITHUB_REPOSITORY jarro2783/cxxopts
-  VERSION 2.2.1
-  OPTIONS "CXXOPTS_BUILD_EXAMPLES NO" "CXXOPTS_BUILD_TESTS NO" "CXXOPTS_ENABLE_INSTALL YES"
-)
-
-CPMAddPackage(NAME Greeter SOURCE_DIR ${CMAKE_CURRENT_LIST_DIR}/..)
+CPMAddPackage(NAME foo SOURCE_DIR ${CMAKE_CURRENT_LIST_DIR}/..)
 
 # ---- Create standalone executable ----
 
 file(GLOB sources CONFIGURE_DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/source/*.cpp)
+SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR})
 
-add_executable(GreeterStandalone ${sources})
+add_executable(FooModule ${sources})
 
-set_target_properties(GreeterStandalone PROPERTIES CXX_STANDARD 17 OUTPUT_NAME "Greeter")
+set_target_properties(FooModule PROPERTIES CXX_STANDARD 17 OUTPUT_NAME "FooModule")
 
-target_link_libraries(GreeterStandalone Greeter::Greeter cxxopts)
+target_link_libraries(FooModule foo::foo)
