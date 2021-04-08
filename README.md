@@ -1,7 +1,7 @@
-[![Actions Status](https://github.com/wanghenshui/SimpleJIT/workflows/MacOS/badge.svg)](https://github.com/wanghenshui/SimpleJIT/actions)
-[![Actions Status](https://github.com/wanghenshui/SimpleJIT/workflows/Ubuntu/badge.svg)](https://github.com/wanghenshui/SimpleJIT/actions)
-[![Actions Status](https://github.com/wanghenshui/SimpleJIT/workflows/Style/badge.svg)](https://github.com/wanghenshui/SimpleJIT/actions)
-[![Actions Status](https://github.com/wanghenshui/SimpleJIT/workflows/Install/badge.svg)](https://github.com/wanghenshui/SimpleJIT/actions)
+[![Actions Status](https://github.com/wanghenshui/SimpleHotReload/workflows/MacOS/badge.svg)](https://github.com/wanghenshui/SimpleHotReload/actions)
+[![Actions Status](https://github.com/wanghenshui/SimpleHotReload/workflows/Ubuntu/badge.svg)](https://github.com/wanghenshui/SimpleHotReload/actions)
+[![Actions Status](https://github.com/wanghenshui/SimpleHotReload/workflows/Style/badge.svg)](https://github.com/wanghenshui/SimpleHotReload/actions)
+[![Actions Status](https://github.com/wanghenshui/SimpleHotReload/workflows/Install/badge.svg)](https://github.com/wanghenshui/SimpleHotReload/actions)
 
 
 # a hot reloading demo
