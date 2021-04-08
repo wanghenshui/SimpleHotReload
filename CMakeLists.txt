@@ -48,7 +48,7 @@ SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/)
 
 SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/)
 # Link dependencies
-target_link_libraries(foo PRIVATE)
+target_link_libraries(foo PRIVATE dl)
 
 target_include_directories(
   foo PUBLIC $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include>
