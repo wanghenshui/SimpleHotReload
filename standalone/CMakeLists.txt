@@ -21,4 +21,4 @@ add_executable(FooModule ${sources})
 
 set_target_properties(FooModule PROPERTIES CXX_STANDARD 17 OUTPUT_NAME "FooModule")
 
-target_link_libraries(FooModule foo::foo)
+target_link_libraries(FooModule foo::foo dl)

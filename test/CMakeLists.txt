@@ -29,7 +29,7 @@ endif()
 file(GLOB sources CONFIGURE_DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/source/*.cpp)
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR})
 add_executable(FooModuleTests ${sources})
-target_link_libraries(FooModuleTests doctest::doctest foo::foo)
+target_link_libraries(FooModuleTests doctest::doctest foo::foo dl)
 set_target_properties(FooModuleTests PROPERTIES CXX_STANDARD 17)
 
 # enable compiler warnings
